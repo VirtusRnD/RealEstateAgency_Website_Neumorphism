@@ -1,0 +1,239 @@
+{
+  "common": {
+    "calculator": "Calculator",
+    "faq": "FAQ",
+    "listings": "Listings",
+    "blog": "Blog",
+    "gallery": "Gallery",
+    "explore": "Explore",
+    "book": "Book",
+    "booking": "Booking",
+    "book_now": "Book Now",
+    "home": "Home",
+    "about": "About",
+    "menu": "Menu",
+    "contact": "Contact",
+    "contact_us": "Contact Us",
+    "contact_form": "Contact Form",
+    "name_surname": "Name Surname",
+    "phone_number": "Phone Number",
+    "message": "Message",
+    "your_message": "Your message",
+    "send": "Send",
+    "email_adress": "E-mail Adress",
+    "call": "Call",
+    "email": "E-mail",
+    "address": "Address",
+    "for_questions": "For Questions",
+    "virtualtour": "360 Virtual Tour",
+    "name_placeholder": "Your Full Name...",
+    "working_hours": "Working Hours",
+    "allrightsreserved": "All rights reserved.",
+    "privacypolicy": "Privacy Policy",
+    "termsofuse": "Terms of Use"
+  },
+  
+  "brandname": "Lorem Emlak",
+  "webTitle": "Lorem Emlak - Luxury Real Estate",
+  "hero": {
+    "badge": "Prestige Real Estate",
+    "prefix": "Discover Your",
+    "typewriter": [
+      "Dream Luxury Villa.",
+      "Sea View Residence.",
+      "Exclusive Penthouse.",
+      "Future Through Investment.",
+      "Prime Plot & Land."
+    ],
+    "description": "Step safely into the future with our exclusive real estate portfolio and innovative investment simulations."
+  },
+  "searchbar": {
+    "tabs": {
+      "sale": "For Sale",
+      "rent": "For Rent"
+    },
+    "labels": {
+      "location": "Location",
+      "propertyType": "Property Type",
+      "priceRange": "Price Range",
+      "searchBtn": "Search"
+    },
+    "placeholders": {
+      "location": "Select City or Region",
+      "propertyType": "All Properties",
+      "priceRange": "No Price Limit"
+    },
+    "locations": {
+      "istanbul": "Istanbul",
+      "izmir": "Izmir",
+      "ankara": "Ankara",
+      "antalya": "Antalya",
+      "bodrum": "Mugla / Bodrum"
+    },
+    "propertyTypes": {
+      "villa": "Detached Villa",
+      "daire": "Luxury Apartment / Residence",
+      "penthouse": "Penthouse",
+      "arsa": "Land / Plot"
+    },
+    "priceRanges": {
+      "0-5m": "0 - 5,000,000 ₺",
+      "5m-15m": "5,000,000 ₺ - 15,000,000 ₺",
+      "15m-30m": "15,000,000 ₺ - 30,000,000 ₺",
+      "30m+": "30,000,000 ₺ & Above"
+    }
+  },
+  "featured": {
+    "overline": "Exclusive Portfolio",
+    "titleMain": "Featured",
+    "titleHighlight": "Listings",
+    "status": {
+      "sale": "For Sale",
+      "rent": "For Rent"
+    },
+    "labels": {
+      "bed": "Beds",
+      "bath": "Baths"
+    },
+    "properties": {
+      "1": {
+        "title": "Luxury Villa with Private Pool on Yalıkavak Coast",
+        "location": "Bodrum, Muğla"
+      },
+      "2": {
+        "title": "Penthouse Residence with Bosphorus View",
+        "location": "Besiktas, Istanbul"
+      },
+      "3": {
+        "title": "Stone Architecture Detached House in Urla Nature",
+        "location": "Urla, Izmir"
+      },
+      "4": {
+        "title": "Brand New Ultra Luxury Apartment in Lara Coast",
+        "location": "Muratpasa, Antalya"
+      },
+      "5": {
+        "title": "Detached Villa with Smart Home System and Lake View",
+        "location": "Sapanca, Sakarya"
+      }
+    }
+  },
+  "calculator": {
+    "overline": "Smart Flow & Finance",
+    "title": "Investment & Mortgage Simulator",
+    "summaryTitle": "Estimated Payment Summary",
+    "buttonText": "Get Detailed Financial Plan",
+    "labels": {
+      "propertyValue": "Property Value",
+      "downPaymentRatio": "Down Payment Ratio",
+      "loanTerm": "Loan Term",
+      "years": "Years",
+      "rentalGuarantee": "Rental Guarantee System",
+      "active": "Active",
+      "passive": "Inactive",
+      "downPaymentBadge": "Down Payment"
+    },
+    "summary": {
+      "monthlyInstallment": "Monthly Installment",
+      "monthsTerm": "Months Term",
+      "avgAppreciation": "Avg. Monthly Appreciation",
+      "regionalAnalysis": "Regional Analysis"
+    }
+  },
+  "about": {
+    "storyOverline": "About Us",
+    "overline": "Corporate Privilege",
+    "titleMain": "Redefining",
+    "titleHighlight": "Luxury Living",
+    "description": "With over 15 years of experience, we offer not just real estate, but the lifestyle of your dreams in Turkey's most exclusive locations.",
+    "storyTitle": "Our Vision & Story",
+    "storyDesc1": "By combining trust, transparency, and luxury architectural standards in the industry, we provide our clients with an unmatchable portfolio experience.",
+    "storyDesc2": "From high-investment value detached villas to Bosphorus-view residences and privileged plots, we bring you properties carefully inspected in every detail.",
+    "stats": {
+      "experience": "Years of Experience",
+      "propertiesSold": "Properties Sold",
+      "clientSatisfaction": "Client Satisfaction",
+      "portfolioValue": "Portfolio Value"
+    },
+    "features": {
+      "1": {
+        "title": "Exclusive Portfolio",
+        "desc": "Not just public listings, but confidential 'Off-Market' private properties."
+      },
+      "2": {
+        "title": "Transparent & Secure",
+        "desc": "Comprehensive legal & title consultancy ensuring peace of mind at every step."
+      },
+      "3": {
+        "title": "Expert Valuation",
+        "desc": "Accurate pricing backed by market analytics to safeguard your investment."
+      }
+    }
+  },
+  "faq": {
+    "overline": "Got Questions?",
+    "titleMain": "Frequently Asked",
+    "titleHighlight": "Questions",
+    "description": "Find answers to all your questions regarding real estate acquisition, sales, and investment processes here.",
+    "questions": [
+      {
+        "question": "Do you provide mortgage and financing assistance for home purchases?",
+        "answer": "Through our partnered private and public banks, we offer you the most favorable interest rates and flexible payment plans. You can also plan your budget in advance using our Investment & Loan Simulator."
+      },
+      {
+        "question": "How does the rental guarantee system work for investment properties?",
+        "answer": "For select luxury projects in our portfolio, corporate rental and management guarantees are provided, ensuring regular monthly rental income during the contract period even if the property remains vacant."
+      },
+      {
+        "question": "Is there support for citizenship and residency processes for foreign investors?",
+        "answer": "Yes, along with our expert legal team and real estate consultants, we manage your process of obtaining Turkish citizenship and residence permits through property investment from start to finish."
+      },
+      {
+        "question": "Are the title deed status and appraisal of properties verified?",
+        "answer": "All properties added to our portfolio undergo title deed verification, zoning checks, encumbrance inspections, and independent appraisals to ensure they meet safe transaction standards."
+      },
+      {
+        "question": "I want to sell or rent my property; how does the process work?",
+        "answer": "You can send us your request via our contact form or by reaching out to us directly. Our expert team inspects your property on-site, conducts a market analysis, and reaches the right buyers quickly through professional media shoots."
+      }
+    ]
+  },
+  "listings": {
+    "overline": "Listings",
+    "title": "All Properties",
+    "resultsFound": "Listings Found",
+    "sort": "Sort by:",
+    "sortNewest": "Newest First",
+    "sortPriceAsc": "Price (Low to High)",
+    "sortPriceDesc": "Price (High to Low)"
+  },
+  "modal": {
+    "propertyDetails": "Property Details",
+    "descriptionTitle": "Property Description",
+    "descriptionText": "This exclusive property offers a comfortable living experience with modern architectural standards and high-quality materials. Featuring spacious living areas, unique views, and a prime location, it is a perfect choice for both investment and residence.",
+    "contactAgent": "Contact Agent",
+    "featuresTitle": "Key Features",
+    "smartHome": "Smart Home System",
+    "parking": "Indoor Parking",
+    "pool": "Swimming Pool",
+    "security": "24/7 Security"
+  },
+  "commentsPage": {
+    "title": "COMMENTS",
+    "bookTitle": "YOUR FEEDBACK",
+    "bookSubtitle": "From our valued guests..."
+  },
+  "contact": {
+    "overline": "Get in Touch",
+    "titleMain": "Contact",
+    "titleHighlight": "Us Today",
+    "tagline": "Meet our expert team to discover your dream luxury property or evaluate your portfolio.",
+    "workingdays": "Monday - Sunday",
+    "workinghours": "11:00 - 23:00"
+  },
+  "footer": {
+    "tagline": "With over 15 years of experience, we offer not just real estate, but the lifestyle of your dreams in Turkey's most exclusive locations.",
+    "quickLinks": "Quick Links",
+    "copyright": "© 2026 Akdeniz Restoran. All rights reserved."
+  }
+}

@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap");
+@import "tailwindcss";
+
+/* 👑 MOBİL KATEGORİ ŞERİDİNDEKİ GRİ SCROLLBAR'I GİZLER */
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+/* 👑 TAILWIND V4 DİNAMİK TEMA VE NEUMORPHIC DEĞİŞKENLERİ */
+@theme {
+  --color-neu-base: var(--color-primary);
+  --color-neu-slate-primary: var(--color-text);
+  --color-neu-slate-secondary: var(--color-muted);
+
+  --color-accent: var(--color-accent-main);
+  --color-grad-from: var(--color-grad-start);
+  --color-grad-to: var(--color-grad-end);
+
+  /* Kabartmalı ve İçe Gömülü Neumorphic Gölgeler */
+  --shadow-neu-flat: var(--neu-shadow-flat);
+  --shadow-neu-flat-sm: var(--neu-shadow-flat-sm);
+  --shadow-neu-pressed: var(--neu-shadow-pressed);
+  --shadow-neu-pressed-sm: var(--neu-shadow-pressed-sm);
+}
+
+/* 👑 TEMA 1: AÇIK TEMA (LIGHT CLASSIC - MAVİ/İNDİGO GRADYANLI NEUMORPHISM) */
+.theme-lightclassic {
+  --color-primary: #e0e5ec;
+  --color-surface: #d8deee;
+  --color-text: #334155;
+  --color-heading: #1e293b;
+  --color-muted: #64748b;
+
+  --color-accent-main: #2563eb;
+  --color-grad-start: #2563eb;
+  --color-grad-end: #4f46e5;
+  --color-hover: #1d4ed8;
+
+  --neu-shadow-flat: 8px 8px 16px #a3b1c6, -8px -8px 16px #ffffff;
+  --neu-shadow-flat-sm: 4px 4px 8px #a3b1c6, -4px -4px 8px #ffffff;
+  --neu-shadow-pressed: inset 6px 6px 10px #a7b4c6, inset -6px -6px 10px #ffffff;
+  --neu-shadow-pressed-sm: inset 3px 3px 6px #a3b1c6, inset -3px -3px 6px #ffffff;
+
+  --logo-url: url('/images/logo_light.png');
+}
+
+/* 👑 TEMA 2: KARANLIK TEMA (DARK CLASSIC - SARI/TURUNCU GRADYANLI KARANLIK NEUMORPHISM) */
+.theme-darkclassic {
+  --color-primary: #181614;
+  --color-surface: #221f1c;
+  --color-text: #e6dfd5;
+  --color-heading: #f3f0e6;
+  --color-muted: #a29484;
+
+  --color-accent-main: #eeb015;
+  --color-grad-start: #eeb015;
+  --color-grad-end: #f97316;
+  --color-hover: #eec615;
+
+  --neu-shadow-flat: 6px 6px 14px #0c0b0a, -6px -6px 14px #24211e;
+  --neu-shadow-flat-sm: 3px 3px 8px #0c0b0a, -3px -3px 8px #24211e;
+  --neu-shadow-pressed: inset 5px 5px 8px #0c0b0a, inset -5px -5px 8px #24211e;
+  --neu-shadow-pressed-sm: inset 3px 3px 5px #0c0b0a, inset -3px -3px 5px #24211e;
+
+  --logo-url: url('/images/logo_light.png');
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Odaklanma stilleri */
+a:focus,
+a:focus-visible,
+button:focus,
+button:focus-visible {
+  outline: none;
+  border-color: var(--color-accent);
+}
+
+/* 👑 SCROLLBAR DÜZENLEMESİ */
+html {
+  scroll-behavior: instant;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-accent-main);
+  border-radius: 9999px;
+  border: 2px solid var(--color-primary);
+  transition: background-color 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-hover);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-accent-main) var(--color-primary);
+}
+
+body {
+  background-color: var(--color-neu-base);
+  color: var(--color-neu-slate-primary);
+  font-family: system-ui, -apple-system, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#root {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}

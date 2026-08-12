@@ -1,0 +1,243 @@
+{
+  "common": {
+    "calculator": "Hesaplayıcı",
+    "faq": "SSS",
+    "listings": "İlanlar",
+    "blog": "Blog",
+    "gallery": "Galeri",
+    "explore": "Keşfet",
+    "book": "Rezerv",
+    "booking": "Rezervasyon",
+    "book_now": "Rezervasyon Yap",
+    "home": "Ana Sayfa",
+    "about": "Hakkında",
+    "menu": "Menü",
+    "contact": "İletişim",
+    "contact_us": "Bize Ulaşın",
+    "contact_form": "İletişim Formu",
+    "name_surname": "Ad Soyad",
+    "phone_number": "Telefon Numarası",
+    "message": "Mesaj",
+    "your_message": "Mesajınız",
+    "send": "Gönder",
+    "email_adress": "E-posta Adresi",
+    "call": "Ara",
+    "email": "E-posta",
+    "address": "Adres",
+    "for_questions": "Sorularınız İçin",
+    "virtualtour": "360 Sanal Tur",
+    "name_placeholder": "Adınız ve soyadınız...",
+    "working_hours": "Çalışma Saatleri",
+    "allrightsreserved": "Tüm hakları saklıdır.",
+    "privacypolicy": "Gizlilik Politikası",
+    "termsofuse": "Kullanım Şartları"
+  },
+  
+  
+  "brandname": "Lorem Emlak",
+  "webTitle": "Lorem Emlak - Lüks Gayrimenkul",
+  "hero": {
+    "badge": "Prestij Gayrimenkul",
+    "prefix": "Hayalinizdeki",
+    "typewriter": [
+      "Lüks Villayı Keşfedin.",
+      "Deniz Manzaralı Rezidansı Bulun.",
+      "Penthouse Daireyi İnceleyin.",
+      "Yatırımla Geleceği Şekillendirin.",
+      "Ayrıcalıklı Arsayı Yakalayın."
+    ],
+    "description": "En seçkin gayrimenkul portföyü ve yenilikçi yatırım simülasyonlarıyla geleceğe güvenle adım atın."
+  },
+  "searchbar": {
+    "tabs": {
+      "sale": "Satılık",
+      "rent": "Kiralık"
+    },
+    "labels": {
+      "location": "Konum",
+      "propertyType": "Mülk Tipi",
+      "priceRange": "Fiyat Aralığı",
+      "searchBtn": "Ara"
+    },
+    "placeholders": {
+      "location": "Şehir veya Bölge Seçin",
+      "propertyType": "Tüm Mülkler",
+      "priceRange": "Herhangi"
+    },
+    "locations": {
+      "istanbul": "İstanbul",
+      "izmir": "İzmir",
+      "ankara": "Ankara",
+      "antalya": "Antalya",
+      "bodrum": "Muğla / Bodrum"
+    },
+    "propertyTypes": {
+      "villa": "Müstakil Villa",
+      "daire": "Lüks Daire / Rezidans",
+      "penthouse": "Penthouse",
+      "arsa": "Arsa / Arazi"
+    },
+    "priceRanges": {
+      "0-5m": "0 - 5.000.000 ₺",
+      "5m-15m": "5.000.000 ₺ - 15.000.000 ₺",
+      "15m-30m": "15.000.000 ₺ - 30.000.000 ₺",
+      "30m+": "30.000.000 ₺ ve Üzeri"
+    }
+  },
+  "featured": {
+    "overline": "Ayrıcalıklı Portföy",
+    "titleMain": "Öne Çıkan",
+    "titleHighlight": "Vitrin İlanları",
+    "status": {
+      "sale": "Satılık",
+      "rent": "Kiralık"
+    },
+    "labels": {
+      "bed": "Oda",
+      "bath": "Banyo"
+    },
+    "properties": {
+      "1": {
+        "title": "Yalıkavak Sahilde Özel Havuzlu Lüks Villa",
+        "location": "Bodrum, Muğla"
+      },
+      "2": {
+        "title": "Boğaz Manzaralı Penthouse Rezidans",
+        "location": "Beşiktaş, İstanbul"
+      },
+      "3": {
+        "title": "Urla Doğa İçinde Taş Mimari Müstakil Ev",
+        "location": "Urla, İzmir"
+      },
+      "4": {
+        "title": "Lara Kordon Sıfır Ultra Lüks Daire",
+        "location": "Muratpaşa, Antalya"
+      },
+      "5": {
+        "title": "Göl Manzaralı Akıllı Ev Sistemli Müstakil Villa",
+        "location": "Sapanca, Sakarya"
+      }
+    }
+  },
+  "calculator": {
+    "overline": "Akıllı Akış & Finans",
+    "title": "Yatırım & Kredi Simülatörü",
+    "summaryTitle": "Tahmini Ödeme Özeti",
+    "buttonText": "Detaylı Finans Planı Al",
+    "labels": {
+      "propertyValue": "Mülk Değeri",
+      "downPaymentRatio": "Peşinat Oranı",
+      "loanTerm": "Kredi Vadesi",
+      "years": "Yıl",
+      "rentalGuarantee": "Kira Garantili Sistem",
+      "active": "Aktif",
+      "passive": "Pasif",
+      "downPaymentBadge": "Peşinat"
+    },
+    "summary": {
+      "monthlyInstallment": "Aylık Kredi Taksidi",
+      "monthsTerm": "Ay Vade",
+      "avgAppreciation": "Aylık Ort. Değer Artışı",
+      "regionalAnalysis": "Bölgesel Analiz"
+    }
+  },
+  "about": {
+    "storyOverline": "Hakkımızda",
+    "overline": "Kurumsal Ayrıcalık",
+    "titleMain": "Lüks Yaşamı",
+    "titleHighlight": "Yeniden Tanımlıyoruz",
+    "description": "15 yılı aşkın tecrübemizle, Türkiye'nin en seçkin lokasyonlarında sadece bir gayrimenkul değil; hayallerinizdeki yaşam tarzını sunuyoruz.",
+    "storyTitle": "Vizyonumuz ve Hikayemiz",
+    "storyDesc1": "Sektörde güven, şeffaflık ve lüks mimari standartlarını bir araya getirerek müşterilerimize benzersiz bir portföy deneyimi yaşatıyoruz.",
+    "storyDesc2": "Yatırım değeri yüksek müstakil villalardan, boğaz manzaralı rezidanslara ve ayrıcalıklı arsalara kadar her detayını titizlikle incelediğimiz mülkleri sizlerle buluşturuyoruz.",
+    "stats": {
+      "experience": "Yıllık Tecrübe",
+      "propertiesSold": "Tamamlanan Satış",
+      "clientSatisfaction": "Müşteri Memnuniyeti",
+      "portfolioValue": "Portföy Değeri"
+    },
+    "features": {
+      "1": {
+        "title": "Ayrıcalıklı Portföy",
+        "desc": "Sadece pazara açık ilanlar değil, gizlilik esasına dayalı 'Off-Market' özel mülkler."
+      },
+      "2": {
+        "title": "Şeffaf & Güvenli Süreç",
+        "desc": "Tapu ve hukuk danışmanlığı ile her adımda koruma altında hissettiren hizmet."
+      },
+      "3": {
+        "title": "Ekspertiz & Doğru Fiyat",
+        "desc": "Piyasa analitiği ile yatırımınızın geleceğini güvence altına alan doğru değerleme."
+      }
+    }
+  },
+  
+  "faq": {
+    "overline": "Aklınıza Takılanlar",
+    "titleMain": "Sıkça Sorulan",
+    "titleHighlight": "Sorular",
+    "description": "Gayrimenkul alım, satım ve yatırım süreçleriyle ilgili merak ettiğiniz tüm yanıtlar burada.",
+    "questions": [
+      {
+        "question": "Konut alımında kredi ve finansman desteği sağlıyor musunuz?",
+        "answer": "Anlaşmalı olduğumuz özel ve kamu bankaları aracılığıyla size en uygun faiz oranları ve esnek ödeme planları sunuyoruz. Ayrıca platformumuzdaki Yatırım & Kredi Simülatörü ile bütçenizi önceden planlayabilirsiniz."
+      },
+      {
+        "question": "Yatırımlık mülklerde kira garantisi sistemi nasıl çalışır?",
+        "answer": "Portföyümüzdeki belirli lüks projelerde, mülkünüz boş kalsa dahi sözleşme süresince düzenli aylık kira getirisi almanızı sağlayan kurumsal kiralama ve yönetim garantisi sunulmaktadır."
+      },
+      {
+        "question": "Yabancı yatırımcılar için vatandaşlık ve vatandaşlık süreci desteği var mı?",
+        "answer": "Evet, alanında uzman hukukçularımız ve gayrimenkul danışmanlarımızla birlikte, Türkiye'de gayrimenkul yatırımı ile vatandaşlık ve ikamet izni alma süreçlerinizi baştan sona eksiksiz yönetiyoruz."
+      },
+      {
+        "question": "İlanlarınızdaki mülklerin ekspertiz ve tapu durumları kontrol ediliyor mu?",
+        "answer": "Portföyümüze giren tüm gayrimenkuller; tapu kaydı, imar durumu, hipotek/şerh kontrolü ve bağımsız ekspertiz değerlemelerinden geçirilerek güvenli alışveriş standartlarına uygun olarak listelenir."
+      },
+      {
+        "question": "Mülkümü satmak veya kiralamak istiyorum, süreç nasıl işliyor?",
+        "answer": "İletişim formumuz üzerinden veya doğrudan bizimle iletişime geçerek talebinizi iletebilirsiniz. Uzman ekiplerimiz mülkünüzü yerinde inceleyerek doğru pazar analizi ve profesyonel fotoğraf/video çekimleriyle kısa sürede doğru alıcıya ulaştırır."
+      }
+    ]
+  },
+
+  "listings": {
+    "overline": "İlanlar",
+    "title": "Tüm Gayrimenkuller",
+    "resultsFound": "İlan Bulundu",
+    "sort": "Sırala:",
+    "sortNewest": "En Yeniler",
+    "sortPriceAsc": "Fiyat (Önce Düşük)",
+    "sortPriceDesc": "Fiyat (Önce Yüksek)"
+  },
+  "modal": {
+    "propertyDetails": "Mülk Detayları",
+    "descriptionTitle": "İlan Açıklaması",
+    "descriptionText": "Bu ayrıcalıklı mülk, modern mimari standartları ve yüksek kaliteli malzeme kullanımıyla konforlu bir yaşam sunmaktadır. Geniş yaşam alanları, benzersiz manzarası ve merkezi konumuyla hem yatırım hem de oturum için mükemmel bir seçenektir.",
+    "contactAgent": "Danışman İle İletişime Geç",
+    "featuresTitle": "Öne Çıkan Özellikler",
+    "smartHome": "Akıllı Ev Sistemi",
+    "parking": "Kapalı Otopark",
+    "pool": "Yüzme Havuzu",
+    "security": "24/7 Güvenlik"
+  },
+
+  "commentsPage": {
+    "title": "YORUMLAR",
+    "bookTitle": "GÖRÜŞLERİNİZ",
+    "bookSubtitle": "Değerli misafirlerimizin kaleminden..."
+  },
+  "contact":{
+    "overline": "Bize Ulaşın",
+    "titleMain": "İletişime",
+    "titleHighlight": "Geçin",
+    "tagline": "Hayalinizdeki lüks mülkü bulmak veya portföyünüzü değerlendirmek için uzman ekibimizle tanışın.",
+    "workingdays": "Pazartesi - Pazar",
+    "workinghours": "11:00 - 23:00"
+  },
+  "footer": {
+    "tagline": "15 yılı aşkın tecrübemizle, Türkiye'nin en seçkin lokasyonlarında sadece bir gayrimenkul değil; hayallerinizdeki yaşam tarzını sunuyoruz.",
+    "quickLinks": "Hızlı Bağlantılar",
+    "copyright": "© 2026 Akdeniz Restoran. Tüm hakları saklıdır."
+  }
+}
