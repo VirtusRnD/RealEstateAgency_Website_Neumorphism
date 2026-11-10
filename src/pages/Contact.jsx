@@ -8,10 +8,11 @@ import {
 } from "react-icons/io5";
 import { useTranslation } from "react-i18next";
 import { useConfig } from "../hooks/useConfig";
+import { submitForm } from "../lib/submitForm";
 
 const Contact = () => {
   const { t } = useTranslation();
-  const { config, upper } = useConfig();
+  const { currentConfig: config, upper } = useConfig(); // the hook exports currentConfig, so config was undefined before
 
   // Form State'leri
   const [formData, setFormData] = useState({
@@ -20,20 +21,20 @@ const Contact = () => {
     phone: "",
     message: "",
   });
-  const [isSubmitted, setIsSubmitted] = useState(false);
+  const [status, setStatus] = useState("idle"); // idle | sending | sent | mailto | error
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("Form verileri:", formData);
-    setIsSubmitted(true);
-    setTimeout(() => {
-      setIsSubmitted(false);
-      setFormData({ name: "", email: "", phone: "", message: "" });
-    }, 4000);
+    setStatus("sending");
+    try {
+      setStatus(await submitForm(formData, { email: config?.contact?.email, subject: t("contact.title") }));
+    } catch {
+      setStatus("error");
+    }
   };
 
   const mapAddress = encodeURIComponent(
@@ -123,13 +124,10 @@ const Contact = () => {
               {upper(t("common.contact_us", "Bize Mesaj Gönderin"))}
             </h3>
 
-            {isSubmitted ? (
+            {status === "sent" || status === "mailto" ? (
               <div className="bg-neu-base p-4 rounded-2xl shadow-neu-pressed text-emerald-500 font-bold text-sm my-8 text-center">
                 🎉{" "}
-                {t(
-                  "contact.successMessage",
-                  "Mesajınız başarıyla gönderildi! En kısa sürede size dönüş yapacağız."
-                )}
+                {t(status === "sent" ? "contact.successMessage" : "contact.mailtoMessage")}
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="space-y-4">
@@ -201,8 +199,12 @@ const Contact = () => {
                 </div>
 
                 {/* GÖNDER BUTONU */}
+                {status === "error" && (
+                  <p role="alert" className="text-red-500 text-sm font-medium">{t("contact.errorMessage")}</p>
+                )}
                 <button
                   type="submit"
+                  disabled={status === "sending"}
                   className="w-full bg-gradient-to-r from-grad-from to-grad-to text-white font-extrabold py-3.5 px-6 rounded-2xl shadow-neu-flat active:shadow-neu-pressed transition-all duration-200 flex items-center justify-center gap-2 cursor-pointer uppercase tracking-wider text-xs sm:text-sm mt-2 hover:scale-[1.01]"
                 >
                   <IoPaperPlaneOutline size={18} />

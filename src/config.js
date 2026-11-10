@@ -1,16 +1,16 @@
 export const config = {
   activeTheme: "darkclassic",
 
-  siteName: "Lorem Emlak",
+  siteName: "Prestige Gayrimenkul",
 
   contact: {
     phone: "+90 (242) 123 45 67",
-    email: "info@lorememlak.com",
+    email: "info@prestigegayrimenkul.com",
     address: "Atatürk Cad. No:123, Muratpaşa / Antalya",
 
-    instagram: "https://instagram.com/lorememlak",
+    instagram: "https://instagram.com/prestigegayrimenkul",
     whatsapp: "https://wa.me/902525154381",
-    facebook: "https://facebook.com/lorememlak",
+    facebook: "https://facebook.com/prestigegayrimenkul",
   },
 
   mapSrc:

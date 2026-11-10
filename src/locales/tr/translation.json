@@ -32,10 +32,8 @@
     "privacypolicy": "Gizlilik Politikası",
     "termsofuse": "Kullanım Şartları"
   },
-  
-  
-  "brandname": "Lorem Emlak",
-  "webTitle": "Lorem Emlak - Lüks Gayrimenkul",
+  "brandname": "Prestige Gayrimenkul",
+  "webTitle": "Prestige Gayrimenkul - Lüks Gayrimenkul",
   "hero": {
     "badge": "Prestij Gayrimenkul",
     "prefix": "Hayalinizdeki",
@@ -171,7 +169,6 @@
       }
     }
   },
-  
   "faq": {
     "overline": "Aklınıza Takılanlar",
     "titleMain": "Sıkça Sorulan",
@@ -200,7 +197,6 @@
       }
     ]
   },
-
   "listings": {
     "overline": "İlanlar",
     "title": "Tüm Gayrimenkuller",
@@ -221,19 +217,21 @@
     "pool": "Yüzme Havuzu",
     "security": "24/7 Güvenlik"
   },
-
   "commentsPage": {
     "title": "YORUMLAR",
     "bookTitle": "GÖRÜŞLERİNİZ",
     "bookSubtitle": "Değerli misafirlerimizin kaleminden..."
   },
-  "contact":{
+  "contact": {
     "overline": "Bize Ulaşın",
     "titleMain": "İletişime",
     "titleHighlight": "Geçin",
     "tagline": "Hayalinizdeki lüks mülkü bulmak veya portföyünüzü değerlendirmek için uzman ekibimizle tanışın.",
     "workingdays": "Pazartesi - Pazar",
-    "workinghours": "11:00 - 23:00"
+    "workinghours": "11:00 - 23:00",
+    "successMessage": "Mesajınız gönderildi! En kısa sürede size dönüş yapacağız.",
+    "mailtoMessage": "E-posta uygulamanız mesajınızla birlikte açıldı. Bize ulaşmak için göndere basın.",
+    "errorMessage": "Bir sorun oluştu ve mesajınız gönderilemedi. Lütfen tekrar deneyin ya da bize doğrudan e-posta gönderin."
   },
   "footer": {
     "tagline": "15 yılı aşkın tecrübemizle, Türkiye'nin en seçkin lokasyonlarında sadece bir gayrimenkul değil; hayallerinizdeki yaşam tarzını sunuyoruz.",

@@ -32,9 +32,8 @@
     "privacypolicy": "Privacy Policy",
     "termsofuse": "Terms of Use"
   },
-  
-  "brandname": "Lorem Emlak",
-  "webTitle": "Lorem Emlak - Luxury Real Estate",
+  "brandname": "Prestige Gayrimenkul",
+  "webTitle": "Prestige Gayrimenkul - Luxury Real Estate",
   "hero": {
     "badge": "Prestige Real Estate",
     "prefix": "Discover Your",
@@ -229,7 +228,10 @@
     "titleHighlight": "Us Today",
     "tagline": "Meet our expert team to discover your dream luxury property or evaluate your portfolio.",
     "workingdays": "Monday - Sunday",
-    "workinghours": "11:00 - 23:00"
+    "workinghours": "11:00 - 23:00",
+    "successMessage": "Your message has been sent! We will get back to you as soon as possible.",
+    "mailtoMessage": "Your mail app has opened with your message. Press send to reach us.",
+    "errorMessage": "Something went wrong and your message was not sent. Please try again or email us directly."
   },
   "footer": {
     "tagline": "With over 15 years of experience, we offer not just real estate, but the lifestyle of your dreams in Turkey's most exclusive locations.",
